@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Users\spag9\Documents\kuliah_unpas\SMESTER 4\PRAKTIKUM PEMROGRAMAN\.metadata\.plugins\org.eclipse.jdt.core
-289082494.index
-296161661.index
-1865797976.index
