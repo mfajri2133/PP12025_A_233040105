@@ -1,5 +1,4 @@
 package Pertemuan2;
-import Pertemuan2.Node;
 
 public class NodeMain {
 	public static void main(String[] args) {
