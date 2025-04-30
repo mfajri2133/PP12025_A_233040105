@@ -1,4 +1,4 @@
-package pertemuan6.latihan1;
+package pertemuan8.latihan3;
 
 
 import pertemuan8.Node;
@@ -129,5 +129,30 @@ public class StrukturList {
                 System.out.println("Elemen " + e + " tidak ditemukan");
             }
         }
+    }
+
+    public boolean find(int x) {
+        Node curNode = HEAD;
+        boolean ketemu = false;
+
+        while (curNode != null && !ketemu) {
+            if (curNode.getData() == x) {
+                ketemu = true;
+            } else {
+                curNode = curNode.getNext();
+            }
+        }
+        return ketemu;
+    }
+
+    public int size() {
+        Node curNode = HEAD;
+        int jumlah = 0;
+
+        while (curNode != null) {
+            jumlah++;
+            curNode = curNode.getNext();
+        }
+        return jumlah;
     }
 }
