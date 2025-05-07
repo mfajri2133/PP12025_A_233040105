@@ -1,4 +1,4 @@
-package pertemuan8.tugas;
+package pertemuan7.tugas;
 
 public class StrukturListTest {
     public static void main(String[] args) {

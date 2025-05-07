@@ -1,23 +1,25 @@
 package pertemuan8;
 
 public class Node {
-    private int data;
+    private Matakuliah data;
     private Node next;
 
-    public Node(int data) {
+    public Node(Matakuliah data) {
         this.data = data;
-        this.next = null;
+    }
+    public void setNext(Node next) {
+        this.next = next;
     }
 
-    public int getData() {
+    public void setData(Matakuliah data) {
+        this.data = data;
+    }
+
+    public Matakuliah getData() {
         return data;
     }
 
     public Node getNext() {
         return next;
-    }
-
-    public void setNext(Node next) {
-        this.next = next;
     }
 }

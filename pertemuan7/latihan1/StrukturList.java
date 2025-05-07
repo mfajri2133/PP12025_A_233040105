@@ -1,7 +1,7 @@
-package pertemuan8.latihan1;
+package pertemuan7.latihan1;
 
 
-import pertemuan8.Node;
+import pertemuan7.Node;
 
 public class StrukturList {
     private Node HEAD;

@@ -1,7 +1,7 @@
-package pertemuan8.tugas;
+package pertemuan7.latihan3;
 
 
-import pertemuan8.Node;
+import pertemuan7.Node;
 
 public class StrukturList {
     private Node HEAD;
@@ -155,15 +155,4 @@ public class StrukturList {
         }
         return jumlah;
     }
-
-    public void clear() {
-        while (HEAD != null) {
-            Node temp = HEAD;
-            HEAD = HEAD.getNext();
-            dispose(temp);
-        }
-        System.out.println("List kosong");
-    }
-
 }
-

@@ -1,6 +1,6 @@
-package pertemuan8.latihan2;
+package pertemuan7.latihan2;
 
-import pertemuan8.latihan1.StrukturList;
+import pertemuan7.latihan1.StrukturList;
 
 public class StrukturListTest {
     public static void main(String[] args) {
